@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(179, 179, 179);
+}
+
+.contain-card {
+    background-color: rgb(243, 236, 224);
+    height: 650px;
+    width: 400px;
+    margin: 50px;
+}
+
+.contain-card .contain-product {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+}
+
+.contain-card .contain-product .envio {
+    background-color: rgb(77, 77, 243);
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    z-index: 999;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contain-card .contain-product .envio p {
+    position: relative;
+    top: -8px;
+}
+
+.contain-card .contain-product .descuento {
+    background-color: rgb(53, 179, 90);
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 95px;
+    left: 70px;
+    z-index: 999;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contain-card .contain-product .descuento p {
+    position: relative;
+    top: -10px;
+}
+
+.contain-card .contain-product i {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 415px;
+    top: 60px;
+}
+.contain-card .contain-product img {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+
+.contain-card .contain-information .contain-name-price {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contain-card .contain-information .contain-name-price h2:nth-child(1) {
+    color: rgb(53, 53, 53);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 30px;
+}
+
+.contain-card .contain-information .contain-name-price h2:nth-child(2) {
+    color: rgb(91, 112, 168);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 150px;
+}
+
+.contain-card .contain-information h3 {
+    color: rgb(129, 129, 129);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}

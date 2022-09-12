@@ -1,0 +1,230 @@
+.container {
+    height: 330px;
+    width: 330px;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.container .contain-cuadradoGris1 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris1 .contain-rojo1 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+}
+
+.container .contain-cuadradoGris1 .contain-verde1 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: -10px;
+    left: 70px;
+}
+
+.container .contain-cuadradoGris2 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris2 .contain-rojo2 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: -40px;
+}
+
+.container .contain-cuadradoGris2 .contain-verde2 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -60px;
+    left: 70px;
+}
+
+.container .contain-cuadradoGris3 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris3 .contain-rojo3 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: -40px;
+    left: 40px;
+}
+
+.container .contain-cuadradoGris3 .contain-verde3 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -60px;
+    left: 70px;
+}
+
+.container .contain-cuadradoGris4 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris4 .contain-rojo4 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: -40px;
+}
+
+.container .contain-cuadradoGris4 .contain-verde4 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    bottom: -10px;
+    left: 30px;
+}
+
+.container .contain-cuadradoGris5 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris5 .contain-rojo5 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: -40px;
+}
+
+.container .contain-cuadradoGris5 .contain-verde5 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    bottom: 30px;
+    left: 40px;
+}
+
+.container .contain-cuadradoGris6 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris6 .contain-rojo6 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: -40px;
+    left: 40px;
+}
+
+.container .contain-cuadradoGris6 .contain-verde6 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    bottom: 20px;
+    left: 40px;
+}
+
+.container .contain-cuadradoGris7 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris7 .contain-rojo7 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+}
+
+.container .contain-cuadradoGris7 .contain-verde7 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: -10px;
+}
+
+.container .contain-cuadradoGris8 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris8 .contain-rojo8 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    bottom: -40px;
+}
+
+.container .contain-cuadradoGris8 .contain-verde8 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    bottom: -10px;
+    left: 35px;
+}
+
+.container .contain-cuadradoGris9 {
+    background-color: rgb(185, 184, 184);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.container .contain-cuadradoGris9 .contain-rojo9 {
+    background-color: rgb(241, 107, 107);
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    bottom: -20px;
+}
+
+.container .contain-cuadradoGris9 .contain-verde9 {
+    background-color: rgb(68, 184, 68);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+    bottom: 25px;
+    left: 35px;
+}

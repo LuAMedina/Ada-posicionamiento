@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+nav {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: -20px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+}
+
+nav ul li {
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 1050px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-menu-oculto {
+    background-color: blue;
+    width: 150px;
+    display: none;
+}
+
+.sub-menu:hover  .sub-menu-oculto {
+    display: block;
+}
